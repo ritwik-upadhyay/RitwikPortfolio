@@ -1,0 +1,363 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(217, 211, 211);
+            color: black;
+            font-family: 'Fira Code', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        /*nav ul li a {
+            text-decoration: none;
+            color: rgb(217, 211, 211);
+
+        }*/
+
+        nav ul li a {
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(217, 211, 211);
+            padding: 5px 0px;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.07rem;
+            border: 2px solid rgb(217, 211, 211);
+            padding: 5px;
+
+        }
+
+
+        main hr {
+            border: 0;
+            background: black;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        .left a{
+            display: inline-block;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: rgb(217, 211, 211);
+        }
+
+        .left a:hover {
+            font-size: 1.7rem;
+            border: 2px solid rgb(217, 211, 211);
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .emblem {
+            width: 200px;
+            height: 70px;
+            border: 0.005px solid rgb(217, 211, 211);
+            padding: 5px;
+        }
+
+        .emblem img {
+            width: 200px;
+            height: 70px;
+        }
+
+        .firstSection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .firstSection>div {
+            width: 37%;
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+            margin-top: 40px;
+        }
+
+        .leftSection .btn a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 20px;
+            background: black;
+            color: rgb(217, 211, 211);
+            font-family: 'Fira Code', sans-serif;
+            border: 2px solid rgb(217, 211, 211);
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .btn a:hover {
+            background: rgb(217, 211, 211);
+            color: rgb(81, 79, 79);
+            border: 2px solid rgb(81, 79, 79);
+            padding: 30px;
+
+        }
+        
+
+        .rightSection img {
+            width: 80%;
+            border: 3px solid black;
+
+        }
+
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .retro-img {
+            display: block;
+            width: 100%;
+            height: auto;
+            clip-path: inset(0 0 100% 0);
+            animation: reveal 1.5s steps(20) forwards;
+        }
+
+        .retro-btn {
+            clip-path: inset(0 0 100% 0);
+            animation: reveal 1.5s steps(20) forwards;
+
+        }
+
+        @keyframes reveal {
+            to {
+                clip-path: inset(0 0 0 0);
+            }
+        }
+
+        .text-grey {
+
+            color: rgb(81, 79, 79);
+
+        }
+
+        #element {
+            color: rgb(81, 79, 79);
+        }
+
+        /*.secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 40vh;
+        }
+
+        secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        } */
+
+        footer {
+            background-color: black;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 100px;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+            color: rgb(217, 211, 211);
+        }
+
+        .footer .portfolio {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: rgb(217, 211, 211);
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer a {
+            color: rgb(217, 211, 211);
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+
+            text-align: center;
+            color: rgb(217, 211, 211);
+            padding: 12px 0;
+
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+        }
+
+        .thirdSection .about-me-desc {
+            width: 77vw;
+            height: auto;
+            margin: 10px 0px;
+        }
+
+        .about-me-desc p {
+            margin-bottom: 17px;
+        }
+
+        .retro-btn p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .fourthSection {
+            max-width: 80vw;
+            margin: auto;
+            height: auto;
+        }
+
+        .fifthSection {
+            max-width: 80vw;
+            margin: auto;
+            height: auto;
+        }
+
+        .project {
+            display: flexbox;
+            justify-content: space-around;
+            align-content: center;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .project-card {
+            position: relative;
+            display: inline-block;
+            width: 500px;
+            height: 300px;
+            overflow: hidden;
+            border: 3px solid black;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .project a {
+            margin-bottom: 50px;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .project-card:hover .overlay {
+            opacity: 1;
+        }
+
+        .project-desc {
+            margin-top: 10px;
+            font-size: 16px;
+            color: black;
+        }
+
+        #contact-me .retro-btn li {
+            line-height: 50px;
+        }
+
+        .footer .retro-btn li{
+            line-height: 40px;
+        }
+
+        #contact-me li a {
+            color: black;
+        }
